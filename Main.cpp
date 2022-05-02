@@ -29,6 +29,8 @@ void yiginCikar(Yigin* s)
 
 int main()
 {
+    cout << endl;
+
     Yigin y;
     y.olustur();
     y.ekle(3);
@@ -51,7 +53,10 @@ int main()
     cout << "Sirali Yigin: " << endl;
 
     yiginCikar(&y);
+
     y.yazdir();
     y.kapat();
+    cout << endl;
+    cout << endl;
 
 }
